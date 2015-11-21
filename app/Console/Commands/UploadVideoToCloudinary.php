@@ -3,22 +3,22 @@
 use Illuminate\Console\Command;
 use JD\Cloudder\Facades\Cloudder;
 
-class UploadPictureCommand extends Command {
+class UploadVideoToCloudinary extends Command {
 
-    protected $PICTURE_NAME;
+	protected $VIDEO_NAME;
 	/**
 	 * The console command name.
 	 *
 	 * @var string
 	 */
-	protected $name = 'cloudder:upload_image';
+	protected $name = 'cloudder:upload_video';
 
 	/**
 	 * The console command description.
 	 *
 	 * @var string
 	 */
-	protected $description = 'Uploads an image to Cloudinary.';
+	protected $description = 'Uploads a video to Cloudinary.';
 
 	/**
 	 * Create a new command instance.
@@ -28,7 +28,7 @@ class UploadPictureCommand extends Command {
 	public function __construct()
 	{
 		parent::__construct();
-    $this->PICTURE_NAME = public_path('kitten.jpg');
+		$this->VIDEO_NAME = public_path('rabbit.mp4');
 	}
 
 	/**
@@ -38,6 +38,6 @@ class UploadPictureCommand extends Command {
 	 */
 	public function fire()
 	{
-    Cloudder::upload($this->PICTURE_NAME)->getResult();
+		Cloudder::uploadVideo($this->VIDEO_NAME)->getResult();
 	}
 }

@@ -12,7 +12,8 @@ class Kernel extends ConsoleKernel {
 	 */
 	protected $commands = [
 		'App\Console\Commands\DeletePictureCommand',
-        'App\Console\Commands\UploadPictureCommand',
+		'App\Console\Commands\UploadPictureCommand',
+		'App\Console\Commands\UploadVideoToCloudinary',
 	];
 
 	/**
