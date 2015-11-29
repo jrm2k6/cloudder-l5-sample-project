@@ -4,6 +4,7 @@
 	"keywords": ["framework", "laravel"],
 	"license": "MIT",
 	"type": "project",
+	"minimum-stability": "dev",
   "repositories": [
     {
       "type": "vcs",
@@ -13,7 +14,7 @@
 
   "require": {
     "laravel/framework": "5.0.*",
-		"jrm2k6/cloudder": "0.2.1"
+		"jrm2k6/cloudder": "*"
   },
 	"require-dev": {
 		"phpunit/phpunit": "~4.0",
