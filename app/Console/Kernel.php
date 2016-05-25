@@ -14,6 +14,8 @@ class Kernel extends ConsoleKernel {
 		'App\Console\Commands\DeletePictureCommand',
 		'App\Console\Commands\UploadPictureCommand',
 		'App\Console\Commands\UploadVideoToCloudinary',
+		'App\Console\Commands\CreateArchiveCommand',
+		'App\Console\Commands\DownloadArchiveUrlCommand',
 		'App\Console\Commands\ShowResource',
 	];
 
