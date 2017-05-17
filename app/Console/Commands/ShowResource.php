@@ -41,11 +41,8 @@ class ShowResource extends Command {
 			$url = Cloudder::secureShow('uiuih8djzx8bl0azjisa', []);
 			$this->info($url);
 		} else {
-//			try {
-			    Cloudder::doesResourceExist('uiuihzx8bl0azjisa');
-//            } catch (\Exception $e) {
-//			    $this->info('in exception');
-//            }
+			$url = Cloudder::show('uiuih8djzx8bl0azjisa', []);
+			$this->info($url);
 		}
 	}
 

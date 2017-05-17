@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0f2e736eaee32ccd3546600e9a0d451d",
-    "content-hash": "10fcf6a9c133fadcbaf06dfbaedbde24",
+    "hash": "f0ad93090946065764860a0c2bb3d80d",
+    "content-hash": "36924d707728a3d7087eca89057e1272",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -464,11 +464,11 @@
         },
         {
             "name": "jrm2k6/cloudder",
-            "version": "0.4.0",
+            "version": "0.2.1",
             "source": {
                 "type": "git",
                 "url": "../cloudder",
-                "reference": "82d75368890424d166bf025df39611a1d18abcc0"
+                "reference": "e263fc7c5b59384b796f2c70f14f1c91aa6aa878"
             },
             "require": {
                 "cloudinary/cloudinary_php": ">=1.1",
@@ -504,7 +504,7 @@
                 "laravel4",
                 "upload"
             ],
-            "time": "2017-02-03 19:10:37"
+            "time": "2015-11-21 18:24:49"
         },
         {
             "name": "laravel/framework",
@@ -1551,12 +1551,12 @@
             "target-dir": "Symfony/Component/Routing",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/routing.git",
+                "url": "https://github.com/symfony/Routing.git",
                 "reference": "0a1764d41bbb54f3864808c50569ac382b44d128"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/routing/zipball/0a1764d41bbb54f3864808c50569ac382b44d128",
+                "url": "https://api.github.com/repos/symfony/Routing/zipball/0a1764d41bbb54f3864808c50569ac382b44d128",
                 "reference": "0a1764d41bbb54f3864808c50569ac382b44d128",
                 "shasum": ""
             },
@@ -2906,7 +2906,7 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
