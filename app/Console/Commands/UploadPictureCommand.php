@@ -28,7 +28,7 @@ class UploadPictureCommand extends Command {
 	public function __construct()
 	{
 		parent::__construct();
-    $this->PICTURE_NAME = public_path('kitten.jpg');
+        $this->PICTURE_NAME = public_path('kitten.jpg');
 	}
 
 	/**
@@ -38,6 +38,6 @@ class UploadPictureCommand extends Command {
 	 */
 	public function fire()
 	{
-    Cloudder::upload($this->PICTURE_NAME)->getResult();
+        Cloudder::upload($this->PICTURE_NAME)->getResult();
 	}
 }
